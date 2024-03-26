@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero{
+    background-image: url(../src/assets/background.svg);
+}
+.about{
+    background-image: url(../src/assets/footer-bg.svg);
+}
+
+/* .slick-dots {
+    top: 61%;
+  }
+
+  .slick-dots li button:before
+  {
+      font-size: 10px;
+      line-height: 10px;
+      
+  } */
+
+  .active{
+    color:#FF4800 ;
+  }
