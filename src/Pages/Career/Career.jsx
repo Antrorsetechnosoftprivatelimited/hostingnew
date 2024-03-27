@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Carrier = () => {
+const Career = () => {
     return (
         <div className='w-full flex-col md:flex-row flex mt-10'>
             <div className='w-full lg:w-[60%] p-5 md:p-20 leading-snug'>
@@ -23,4 +23,4 @@ const Carrier = () => {
     )
 }
 
-export default Carrier
+export default Career

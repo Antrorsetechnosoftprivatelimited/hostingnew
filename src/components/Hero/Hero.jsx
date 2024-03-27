@@ -58,10 +58,10 @@ const Hero = () => {
           <Slider {...settings}>
             <div className='relative'>
               <img className='z-10 w-full h-auto' src={bg} alt="" />
-              <div className='absolute bottom-16 left-[36%] z-20 flex justify-center flex-col gap-3'>
+              <div className='absolute bottom-24 left-[36%] z-20 flex justify-center flex-col gap-3'>
                 <h3 className='text-2xl font-bold text-white'>Marketplace</h3>
 
-                <Link to={"/coming"} className='py-2 font-bold text-center bg-[#FF4800] rounded-full text-white cursor-pointer'>Visit</Link>
+                <Link to={"/coming"} className='py-2 font-bold text-center bg-[#FF4800] hover:bg-[#ff6325] rounded-full text-white cursor-pointer'>Visit</Link>
 
               </div>
             </div>

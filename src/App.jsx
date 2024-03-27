@@ -5,7 +5,7 @@ import Home from './Pages/Home/Home';
 import Footer from './components/Footer/Footer'
 import Product from './components/Products/Product'
 import Contact from './Pages/Contact/Contact';
-import Carrier from './Pages/Carrier/Carrier';
+import Career from './Pages/Career/Career';
 import ComingSoon from './Pages/ComingSoon/ComingSoon';
 import SignUp from './Pages/SignUpPage/SignUp';
 import Login from './Pages/Login/Login'
@@ -19,7 +19,7 @@ const App = () => {
        <Route path="/" element={<Home />} />
        <Route path="/products" element={<Product />} />
        <Route path="/contact" element={<Contact />} />
-       <Route path="/carrier" element={<Carrier />} />      
+       <Route path="/career" element={<Career />} />      
        <Route path="/coming" element={<ComingSoon />} />
        <Route path="/signup" element={<SignUp/>} />
        <Route path="/login" element={<Login/>} />

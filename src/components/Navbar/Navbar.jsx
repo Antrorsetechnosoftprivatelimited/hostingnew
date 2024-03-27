@@ -102,7 +102,7 @@ const Navbar2 = () => {
         },
       ],
     },
-    { title: "Carrier", path: "/carrier", isDropdown: false },
+    { title: "Career", path: "/career", isDropdown: false },
     { title: "Contact", path: "/contact", isDropdown: false },
   ];
 

@@ -154,7 +154,7 @@ const Footer = () => {
                   />
 
                   <button
-                    className="block rounded-full bg-indigo-500 px-8 py-3 font-medium text-gray-700transition hover:bg-indigo-600"
+                    className="block rounded-full bg-[#FF4800] px-8 py-3 font-medium text-gray-700transition hover:bg-[#FF4800]/90"
                     type="submit"
                   >
                     Subscribe
@@ -176,7 +176,7 @@ const Footer = () => {
                 href="/"
                 rel="noreferrer"
                 target="_blank"
-                className="text-teal-700 transition hover:text-teal-700/75 dark:text-teal-500 dark:hover:text-teal-500/75"
+                className="text-[#FF4800] transition hover:text-[#FF4800]/90 "
               >
                 <span className="sr-only">Facebook</span>
                 <svg
@@ -199,7 +199,7 @@ const Footer = () => {
                 href="/"
                 rel="noreferrer"
                 target="_blank"
-                className="text-teal-700 transition hover:text-teal-700/75 dark:text-teal-500 dark:hover:text-teal-500/75"
+                className="text-[#FF4800] transition hover:text-[#FF4800]/90"
               >
                 <span className="sr-only">Instagram</span>
                 <svg
@@ -222,7 +222,7 @@ const Footer = () => {
                 href="/"
                 rel="noreferrer"
                 target="_blank"
-                className="text-teal-700 transition hover:text-teal-700/75 dark:text-teal-500 dark:hover:text-teal-500/75"
+                className="text-[#FF4800] transition hover:text-[#FF4800]/90"
               >
                 <span className="sr-only">Twitter</span>
                 <svg
@@ -241,7 +241,7 @@ const Footer = () => {
                 href="/"
                 rel="noreferrer"
                 target="_blank"
-                className="text-teal-700 transition hover:text-teal-700/75 dark:text-teal-500 dark:hover:text-teal-500/75"
+                className="text-[#FF4800] transition hover:text-[#FF4800]/90"
               >
                 <span className="sr-only">GitHub</span>
                 <svg

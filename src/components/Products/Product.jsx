@@ -14,11 +14,12 @@ const Product = () => {
         <div className='bg-[#F0EBFF] bg-cover bg-center bg-no-repeat'>
             <div style={{ backgroundImage: `url(${bg})` }} className="header bg-no-repeat bg-cover bg-center pt-10 pb-16">
                 <div className='flex py-5  lg:px-10'>
-                    <div className='w-full lg:w-1/2 p-4 lg:p-16 justify-center flex flex-col items-center'>
+                    <div className='w-full lg:w-1/2 p-4 lg:p-16 justify-center flex flex-col items-center gap-y-3'>
                         <h1 className='text-4xl sm:text-6xl font-bold text-center'>Explore our extensive range of products.
 </h1>
                         <p className='mt-5 text-lg sm:text-xl p-5 text-center'>From basics to specialized solutions, our diverse range of products guarantees that you'll find exactly what you need.</p>
-                        <button className='flex gap-2 items-center justify-center text-lg py-3 px-10 bg-[#FF4800] text-white rounded-full hover:bg-transparent hover:text-[#FF4800] hover:border-2 border-[#FF4800] font-semibold'>Visit <MdKeyboardDoubleArrowRight /></button>
+
+                        <button className='flex gap-2 items-center justify-center text-lg py-3 px-10 bg-[#FF4800] text-white hover:bg-transparent hover:text-[#FF4800] border-2 border-[#FF4800] rounded-full  font-semibold'>Visit <MdKeyboardDoubleArrowRight /></button>
                     </div>
 
                     <div className="hidden w-1/2 lg:grid grid-cols-5 grid-rows-8 gap-4">
